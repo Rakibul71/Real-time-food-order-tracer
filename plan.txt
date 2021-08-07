@@ -21,5 +21,14 @@ projects core par:
             expresse
             ejs express-ejs-layouts
         Dev dependancies:
-            -nodemon
+            -nodemon -D
+    3. create express server -create a server.js file 
+    4.create Home page using html and Css 
+        -including tailwind css 
+
+
+        "scripts":{
+    "server":"node server.js",
+    "dev":"nodemon server.js"
+  },     
     
